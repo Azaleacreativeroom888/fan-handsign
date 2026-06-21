@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>コラム | てとて</title>
+<meta name="description" content="手話にまつわる漫画、イラスト、勉強したことのまとめ記事をジャンルを分けずに置いている場所。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav-wrap">
+  <nav class="nav">
+    <a href="index.html" class="logo">🤟 てとて <span class="tag">手話まなび日記</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="blog.html">日記</a></li>
+      <li><a href="column.html" class="active">コラム</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="chip">🎨 COLUMN</span>
+    <h1>コラム</h1>
+    <p>漫画も、イラストも、勉強したことのまとめも。ジャンルを分けずに、ひとつの棚にまとめて置いておく場所です。</p>
+  </div>
+</section>
+
+<section style="padding-top:10px;">
+  <div class="wrap">
+    <div class="column-grid">
+
+      <a href="#" class="post-card">
+        <div class="post-thumb"><span>💭</span></div>
+        <div class="post-body">
+          <div class="post-date">2026.06.20</div>
+          <h3 class="post-title">目線ひとつで意味が変わる、表情と手話の関係</h3>
+          <p class="post-excerpt">同じ手の形でも、目線や眉の角度で意味が変わることに気づいた話。基礎のおさらいも兼ねて整理してみました。</p>
+          <span class="post-link">つづきを読む →</span>
+        </div>
+      </a>
+
+      <a href="#" class="post-card">
+        <div class="post-thumb"><span>🖍️</span></div>
+        <div class="post-body">
+          <div class="post-date">2026.06.15</div>
+          <h3 class="post-title">らくがき:指文字「あ」〜「ん」を擬人化してみた</h3>
+          <p class="post-excerpt">覚えにくい文字に表情をつけたら覚えやすいかも、と思って描いてみた落書きまとめです。</p>
+          <span class="post-link">つづきを読む →</span>
+        </div>
+      </a>
+
+      <a href="#" class="post-card">
+        <div class="post-thumb"><span>📖</span></div>
+        <div class="post-body">
+          <div class="post-date">2026.06.08</div>
+          <h3 class="post-title">4コマ:はじめての手話サークル</h3>
+          <p class="post-excerpt">緊張しながら参加した体験を、ゆるい4コマ漫画にしてみました。</p>
+          <span class="post-link">つづきを読む →</span>
+        </div>
+      </a>
+
+      <a href="#" class="post-card">
+        <div class="post-thumb"><span>📝</span></div>
+        <div class="post-body">
+          <div class="post-date">2026.05.30</div>
+          <h3 class="post-title">指文字がなかなか覚えられないときにやったこと</h3>
+          <p class="post-excerpt">何度も忘れてしまう文字をどう定着させたか、自分なりの工夫をまとめました。</p>
+          <span class="post-link">つづきを読む →</span>
+        </div>
+      </a>
+
+      <a href="#" class="post-card">
+        <div class="post-thumb"><span>🎨</span></div>
+        <div class="post-body">
+          <div class="post-date">2026.05.22</div>
+          <h3 class="post-title">らくがき:朝の「おはよう」</h3>
+          <p class="post-excerpt">毎朝練習している「おはよう」の手の形を、そのままイラストにしてみました。</p>
+          <span class="post-link">つづきを読む →</span>
+        </div>
+      </a>
+
+      <a href="#" class="post-card">
+        <div class="post-thumb"><span>✍️</span></div>
+        <div class="post-body">
+          <div class="post-date">2026.05.10</div>
+          <h3 class="post-title">手話と筆談、伝わり方の違いを考えてみる</h3>
+          <p class="post-excerpt">同じ「伝える」でも、手話と筆談はずいぶん感触が違うという雑感です。</p>
+          <span class="post-link">つづきを読む →</span>
+        </div>
+      </a>
+
+    </div>
+    <p class="feed-end" style="margin-top:48px;">✏️ まだまだ、つづく…</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a href="index.html" class="logo">🤟 てとて</a>
+    <p style="color:var(--ink-soft);font-size:.85rem;">手話を学ぶ日々の、ゆるやかな記録。</p>
+    <div class="foot-links">
+      <a href="index.html">ホーム</a>
+      <a href="blog.html">日記</a>
+      <a href="column.html">コラム</a>
+      <a href="about.html">About</a>
+    </div>
+    <p class="copy">© 2026 てとて</p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+</script>
+
+</body>
+</html>

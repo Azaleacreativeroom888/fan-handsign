@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日記 | てとて</title>
+<meta name="description" content="手話の勉強の進捗をひとことだけ残す日記。日付と内容だけのゆるいタイムライン。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav-wrap">
+  <nav class="nav">
+    <a href="index.html" class="logo">🤟 てとて <span class="tag">手話まなび日記</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="blog.html" class="active">日記</a></li>
+      <li><a href="column.html">コラム</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="chip">📔 DIARY</span>
+    <h1>ひとこと日記</h1>
+    <p>その日おぼえたことを、ひとことだけ。日付をさかのぼるタイムライン形式の記録です。</p>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="diary-wrap">
+
+    <div class="month-divider"><span>2026年6月</span><div class="line"></div></div>
+
+    <div class="diary-entry tape-yellow">
+      <div class="diary-date"><span class="dot"></span>6月21日(日)</div>
+      <p class="diary-text">「おはよう」の指文字、もうすっかり手が覚えた気がする。寝起きでもパッと出せるようになった。</p>
+    </div>
+
+    <div class="diary-entry tape-pink">
+      <div class="diary-date"><span class="dot"></span>6月19日(金)</div>
+      <p class="diary-text">「ありがとう」の表情がまだ硬いと言われた。手だけじゃなくて顔も大事なんだと痛感した日。</p>
+    </div>
+
+    <div class="diary-entry tape-yellow">
+      <div class="diary-date"><span class="dot"></span>6月16日(火)</div>
+      <p class="diary-text">指文字の五十音、あ行〜た行までやっと一周できた。な行で毎回手が止まる。</p>
+    </div>
+
+    <div class="diary-entry tape-pink">
+      <div class="diary-date"><span class="dot"></span>6月14日(日)</div>
+      <p class="diary-text">動画を見ながら真似して練習してたら、家族に二度見された。傍から見るとだいぶ怪しいらしい。</p>
+    </div>
+
+    <div class="diary-entry tape-yellow">
+      <div class="diary-date"><span class="dot"></span>6月10日(水)</div>
+      <p class="diary-text">「はじめまして」を覚えた。鏡の前で何度も練習して、ようやく形になった気がする。</p>
+    </div>
+
+    <div class="diary-entry tape-pink">
+      <div class="diary-date"><span class="dot"></span>6月7日(日)</div>
+      <p class="diary-text">数字の指文字、6と9の見分けがまだあやしい。何度も逆になる。</p>
+    </div>
+
+    <div class="diary-entry tape-yellow">
+      <div class="diary-date"><span class="dot"></span>6月3日(水)</div>
+      <p class="diary-text">「ごめんね」の手話、思っていたより動きが大きくてびっくりした。</p>
+    </div>
+
+    <div class="month-divider"><span>2026年5月</span><div class="line"></div></div>
+
+    <div class="diary-entry tape-pink">
+      <div class="diary-date"><span class="dot"></span>5月30日(土)</div>
+      <p class="diary-text">ひとまず五十音の指文字表をプリントして壁に貼った。やる気だけは満点。</p>
+    </div>
+
+    <div class="diary-entry tape-yellow">
+      <div class="diary-date"><span class="dot"></span>5月27日(水)</div>
+      <p class="diary-text">「手話、はじめます」と宣言だけして3日放置していたことに気づく。今日から再開。</p>
+    </div>
+
+    <p class="feed-end">✏️ まだまだ、つづく…</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a href="index.html" class="logo">🤟 てとて</a>
+    <p style="color:var(--ink-soft);font-size:.85rem;">手話を学ぶ日々の、ゆるやかな記録。</p>
+    <div class="foot-links">
+      <a href="index.html">ホーム</a>
+      <a href="blog.html">日記</a>
+      <a href="column.html">コラム</a>
+      <a href="about.html">About</a>
+    </div>
+    <p class="copy">© 2026 てとて</p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+</script>
+
+</body>
+</html>
